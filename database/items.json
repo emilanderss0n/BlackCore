@@ -486,9 +486,9 @@
             "Price": 45000
         },
         "locales": {
-            "Name": "AR-15 Vltor MUR-1S 5.56x45 upper receiver (Pristine)",
-            "Shortname": "MUR-1S Pristine",
-            "Description": "MUR-1S modular upper receiver for AR-based weapons by Vltor company. Fitted with mount for attaching additional equipment. Pristine Edition."
+            "Name": "AR-15 Vltor MUR-1S 5.56x45 upper receiver (Painter Edition)",
+            "Shortname": "MUR-1S PE",
+            "Description": "MUR-1S modular upper receiver for AR-based weapons by Vltor company. Fitted with mount for attaching additional equipment. Painter Edition."
         },
         "bcCompatibilities": {
             "mod_handguard": [
@@ -555,6 +555,12 @@
             "Name": "Remington R11 RSASS 7.62x51 marksman rifle (Black)",
             "Shortname": "R11-B",
             "Description": "The Remington Semi Automatic Sniper System is the culmination of a joint effort between Remington Arms and JP Enterprises to develop a highly accurate and superbly built rapid firing sniper rifle. This weapon delivers sub-MOA accuracy out to 800 meters and beyond while providing the tactical advantage of a semi-automatic platform. Modded black."
+        },
+        "bcCompatibilities": {
+            "mod_magazine": [
+                "BC_LANCER_762_MAG_25",
+                "BC_LANCER_762_MAG_20"
+            ]
         }
     },
     "0104_BLACK_LINES_MK47": {
@@ -615,6 +621,12 @@
             "Name": "Colt M4A1 5.56x45 assault rifle (Flames)",
             "Shortname": "M4A1 Flames",
             "Description": "The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use. However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps. Modded with flame paint."
+        },
+        "bcCompatibilities": {
+            "mod_reciever": [
+                "01011_NOVESKE_REC",
+                "01025_VLTOR_REC"
+            ]
         }
     },
     "0107_PRISTINE_M4A1": {
@@ -629,12 +641,18 @@
         },
         "handbook": {
             "ParentId": "5b5f78fc86f77409407a7f90",
-            "Price": 40000
+            "Price": 50000
         },
         "locales": {
-            "Name": "Colt M4A1 5.56x45 assault rifle (Pristine)",
-            "Shortname": "M4A1 Pristine",
-            "Description": "The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use. However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps. Pristine Edition."
+            "Name": "Colt M4A1 5.56x45 assault rifle (Painter Edition)",
+            "Shortname": "M4A1-PE",
+            "Description": "The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use. However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps. Painter Edition."
+        },
+        "bcCompatibilities": {
+            "mod_reciever": [
+                "01011_NOVESKE_REC",
+                "01025_VLTOR_REC"
+            ]
         }
     },
     "0108_BLACK_SPEAR": {
@@ -926,6 +944,94 @@
             "Name": "NPP KlASS Condor gradient glasses",
             "Shortname": "Condor",
             "Description": "Heavy-duty ballistic shooting glasses with impact-resistant lenses."
+        }
+    },
+    "BC_ARSCPC_RIG": {
+        "clone": "5e4ac41886f77406a511c9a8",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "rigs/cr_arscpc_retex.bundle"
+                },
+                "CanSellOnRagfair": false,
+                "CanRequireOnRagfair": false
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f6f8786f77447ed563642",
+            "Price": 3950
+        },
+        "locales": {
+            "Name": "Ars Arma CPC MOD.1 plate carrier (Black)",
+            "Shortname": "CPC MOD.1",
+            "Description": "The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the thorax, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches. Manufactured by Ars Arma."
+        }
+    },
+    "BC_TACTEC_RIG": {
+        "clone": "5b44cad286f77402a54ae7e5",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "rigs/item_equipment_rig_carriertactec_retex.bundle"
+                },
+                "CanSellOnRagfair": false,
+                "CanRequireOnRagfair": false
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f6f8786f77447ed563642",
+            "Price": 3620
+        },
+        "locales": {
+            "Name": "5.11 Tactical TacTec plate carrier (Black)",
+            "Shortname": "TacTec",
+            "Description": "A plate carrier with a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical."
+        }
+    },
+    "BC_TV110_RIG": {
+        "clone": "5c0e746986f7741453628fe5",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "rigs/item_equipment_rig_tv110_retex.bundle"
+                },
+                "CanSellOnRagfair": false,
+                "CanRequireOnRagfair": false
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f6f8786f77447ed563642",
+            "Price": 2452
+        },
+        "locales": {
+            "Name": "WARTECH TV-110 plate carrier (Black)",
+            "Shortname": "TV-110",
+            "Description": "The LBS TV-110 plate carrier equipped with a set of pouches. Manufactured by WARTECH."
+        }
+    },
+    "BC_AVS_RIG": {
+        "clone": "544a5caa4bdc2d1a388b4568",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "rigs/item_equipment_rig_cryeavs_retex.bundle"
+                },
+                "CanSellOnRagfair": false,
+                "CanRequireOnRagfair": false
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f6f8786f77447ed563642",
+            "Price": 2931
+        },
+        "locales": {
+            "Name": "Crye Precision AVS plate carrier (Black)",
+            "Shortname": "AVS",
+            "Description": "The Crye Precision AVS plate carrier equipped with Groin Protector and pouches in assault configuration. One of the most comfortable to wear plate carriers."
         }
     }
 }
