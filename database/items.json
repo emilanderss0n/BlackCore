@@ -19,7 +19,7 @@
             "Description": "The WMX200 tactical flashlight manufactured by Insight Technologies, which combines a conventional flashlight and an IR searchlight. Modded black."
         }
     },
-    "01002_POLYMER_MAG": {
+    "668ab1fdf268c7367e412455": {
         "clone": "5c6d42cb2e2216000e69d7d1",
         "enable": true,
         "items": {
@@ -271,7 +271,7 @@
             "Description": "Multi-caliber silencer Silencerco Hybrid 46 is designed for use with pistols from 9mm to .45 ACP and rifles from 5.56mm to .45. Respective adapter required for installation on the system. Modded with digital styled camo."
         }
     },
-    "01015_AUG_30_MAG": {
+    "668ab2119742a28c0bb14dd0": {
         "clone": "62e7c98b550c8218d602cbb4",
         "enable": true,
         "items": {
@@ -451,7 +451,7 @@
             "Description": "Glock 17 custom slide from the trader Painter. Modded with special paint."
         }
     },
-    "01024_545_STD_MAG": {
+    "668ab221312d944950f06411": {
         "clone": "55d480c04bdc2d1d4e8b456a",
         "enable": true,
         "items": {
@@ -558,8 +558,8 @@
         },
         "bcCompatibilities": {
             "mod_magazine": [
-                "BC_LANCER_762_MAG_25",
-                "BC_LANCER_762_MAG_20"
+                "668ab243a698489724ee6aab",
+                "668ab24c86da1d43430340af"
             ]
         }
     },
@@ -679,8 +679,8 @@
                 "0108_BLACK_SPEAR_RECIEVER"
             ],
             "mod_magazine": [
-                "BC_LANCER_762_MAG_20",
-                "BC_LANCER_762_MAG_25"
+                "668ab243a698489724ee6aab",
+                "668ab24c86da1d43430340af"
             ],
             "mod_pistol_grip": [
                 "BC_SIG_PISTOL_GRIP"
@@ -736,7 +736,7 @@
             "Description": "Angled grip made by Painter."
         }
     },
-    "BC_LANCER_762_MAG_20": {
+    "668ab243a698489724ee6aab": {
         "clone": "65293c38fc460e50a509cb25",
         "enable": true,
         "items": {
@@ -756,7 +756,7 @@
             "Description": "A 20-round double-stack L7AWM 20 magazine for 7.62x51 NATO ammunition. Manufactured by Lancer Systems. Modded black."
         }
     },
-    "BC_LANCER_762_MAG_25": {
+    "668ab24c86da1d43430340af": {
         "clone": "65293c7a17e14363030ad308",
         "enable": true,
         "items": {
@@ -1032,6 +1032,66 @@
             "Name": "Crye Precision AVS plate carrier (Black)",
             "Shortname": "AVS",
             "Description": "The Crye Precision AVS plate carrier equipped with Groin Protector and pouches in assault configuration. One of the most comfortable to wear plate carriers."
+        }
+    },
+    "BC_VORTEX_UH1": {
+        "clone": "59f9d81586f7744c7506ee62",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "scope_all_vortex_razor_amg_uh-1_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f742686f774093e6cb4ff",
+            "Price": 25847
+        },
+        "locales": {
+            "Name": "Vortex Razor AMG UH-1 holographic sight (v2)",
+            "Shortname": "UH-1",
+            "Description": "The Vortex Razor AMG UH-1 holographic sight is not only made with futuristic design, but, according to its creators, is also a revolution among holographic and reflex sights. Modded black."
+        }
+    },
+    "BC_ANPEQ15": {
+        "clone": "544909bb4bdc2d6f028b4577",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "tactical_all_insight_anpeq15_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f737886f774093e6cb4fb",
+            "Price": 19137
+        },
+        "locales": {
+            "Name": "AN/PEQ-15 tactical device (Black)",
+            "Shortname": "AN/PEQ-15",
+            "Description": "The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL) produced by L3 Technologies is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator. Modded black."
+        }
+    },
+    "BC_GL_CORE_STOCK": {
+        "clone": "602e620f9b513876d4338d9a",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "stock_ar15_fab_defense_gl_core_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 4100
+        },
+        "locales": {
+            "Name": "AR-15 FAB Defense GL-CORE black buttstock",
+            "Shortname": "GL-CORE",
+            "Description": "A telescopic stock, manufactured by FAB Defense. The integrated cheek weld, ergonomic buttpad and an interchanging tube adapter provide an unmatched fit on Mil-Spec and Commercial buffer tubes, with a high level of efficiency and comfort. Includes an ergonomically shaped rubberized butt-pad for quick shouldering and easy maneuvering of the weapon. Modded black."
         }
     }
 }

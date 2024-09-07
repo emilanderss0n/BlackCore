@@ -1,12 +1,12 @@
 import { DependencyContainer }  from "tsyringe";
-import { IPostDBLoadMod }       from "@spt-aki/models/external/IPostDBLoadMod";
-import { DatabaseServer }       from "@spt-aki/servers/DatabaseServer";
-import { ImporterUtil }         from "@spt-aki/utils/ImporterUtil";
-import { ILogger }              from "@spt-aki/models/spt/utils/ILogger";
-import { ICoreDatabase }        from "@spt-aki/atlas/ICoreDatabase";
-import { PreAkiModLoader }      from "@spt-aki/loaders/PreAkiModLoader";
-import { IDatabaseTables }      from "@spt-aki/models/spt/server/IDatabaseTables";
-import { JsonUtil }             from "@spt-aki/utils/JsonUtil"
+import { IPostDBLoadMod }       from "@spt/models/external/IPostDBLoadMod";
+import { DatabaseServer }       from "@spt/servers/DatabaseServer";
+import { ImporterUtil }         from "@spt/utils/ImporterUtil";
+import { ILogger }              from "@spt/models/spt/utils/ILogger";
+import { ICoreDatabase }        from "@spt/atlas/ICoreDatabase";
+import { PreSptModLoader }      from "@spt/loaders/PreSptModLoader";
+import { IDatabaseTables }      from "@spt/models/spt/server/IDatabaseTables";
+import { JsonUtil }             from "@spt/utils/JsonUtil"
 
 
 class BlackCore implements IPostDBLoadMod 
@@ -23,12 +23,12 @@ class BlackCore implements IPostDBLoadMod
 
         const databaseServer =      container.resolve<DatabaseServer>("DatabaseServer");
         const databaseImporter =    container.resolve<ImporterUtil>("ImporterUtil");
-        const modLoader =           container.resolve<PreAkiModLoader>("PreAkiModLoader");
+        const modLoader =           container.resolve<PreSptModLoader>("PreSptModLoader");
 
         const modFolderName =   "MoxoPixel-BlackCore";
 
         const traders = {
-            "painter":     "PAINTERSHOP"
+            "painter":     "668aaff35fd574b6dcc4a686"
         };
 
         this.db = databaseServer.getTables();

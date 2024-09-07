@@ -524,6 +524,50 @@
       {
          "key":"glasses/item_equipment_glasses_npp_retex.bundle",
          "dependencyKeys":[]
+      },
+      {
+         "key":"rigs/cr_arscpc_retex.bundle",
+         "dependencyKeys":[]
+      },
+      {
+         "key":"rigs/item_equipment_rig_carriertactec_retex.bundle",
+         "dependencyKeys":[]
+      },
+      {
+         "key":"rigs/item_equipment_rig_tv110_retex.bundle",
+         "dependencyKeys":[]
+      },
+      {
+         "key":"rigs/item_equipment_rig_cryeavs_retex.bundle",
+         "dependencyKeys":[]
+      },
+      {
+         "key":"scope_all_vortex_razor_amg_uh-1_retex.bundle",
+         "dependencyKeys":[
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "assets/content/textures/holemanager/eotech_spec_mask.bundle",
+            "cubemaps",
+            "shaders"
+         ]
+      },
+      {
+         "key":"tactical_all_insight_anpeq15_retex.bundle",
+         "dependencyKeys":[
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "assets/content/textures/holemanager/glow_particle_bright.bundle",
+            "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+            "assets/systems/effects/collimator.bundle",
+            "assets/systems/effects/laserbeam/laser.bundle",
+            "assets/systems/effects/multiflare/multiflare.bundle",
+            "assets/systems/effects/nightvision.bundle",
+            "cubemaps",
+            "shaders"
+         ]
+      },
+      {
+         "key":"stock_ar15_fab_defense_gl_core_retex.bundle",
+         "dependencyKeys":[
+         ]
       }
   ]
 }
