@@ -247,7 +247,6 @@
             "assets/content/textures/holemanager/round_spec_mask.bundle",
             "assets/systems/effects/opticsight/opticsightsmasks.bundle",
             "cubemaps",
-            "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
             "shaders"
          ]
       },
@@ -567,6 +566,16 @@
       {
          "key":"stock_ar15_fab_defense_gl_core_retex.bundle",
          "dependencyKeys":[
+         ]
+      },
+      {
+         "key":"scope_30mm_sig_tango6t_1_6x24_retex.bundle",
+         "dependencyKeys":[
+            "assets/commonassets/physics/physicsmaterials.bundle",
+            "assets/content/textures/holemanager/round_spec_mask.bundle",
+            "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+            "cubemaps",
+            "shaders"
          ]
       }
   ]

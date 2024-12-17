@@ -1,5 +1,5 @@
 {
-    "01001_WMX200": {
+    "672e37d16837c8feaa64be0f": {
         "clone": "626becf9582c3e319310b837",
         "enable": true,
         "items": {
@@ -19,7 +19,7 @@
             "Description": "The WMX200 tactical flashlight manufactured by Insight Technologies, which combines a conventional flashlight and an IR searchlight. Modded black."
         }
     },
-    "668ab1fdf268c7367e412455": {
+    "672e37d1027fc0fe0d13b56c": {
         "clone": "5c6d42cb2e2216000e69d7d1",
         "enable": true,
         "items": {
@@ -39,7 +39,7 @@
             "Description": "30-round polymer HK Polymer mag magazine, for 5.56x45 ammunition. Modded black."
         }
     },
-    "01003_FSB_HANDGUARD": {
+    "672e37d1520640dc6dcd5cdd": {
         "clone": "5c9a26332e2216001219ea70",
         "enable": true,
         "items": {
@@ -60,11 +60,11 @@
         },
         "bcCompatibilities": {
             "mod_foregrip": [
-                "BC_NEW_FOREGRIP_1"
+                "672e37d10e627f2e9563a930"
             ]
         }
     },
-    "01005_EXPS3": {
+    "672e37d10527a90689a16240": {
         "clone": "558022b54bdc2dac148b458d",
         "enable": true,
         "items": {
@@ -84,7 +84,7 @@
             "Description": "Eotech EXPS3 holo sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces. Modded black."
         }
     },
-    "01006_BASTION": {
+    "672e37d10c5f88d8ed0d056a": {
         "clone": "5d2c76ed48f03532f2136169",
         "enable": true,
         "items": {
@@ -92,7 +92,6 @@
                 "Prefab": {
                     "path": "reciever_ak_akademia_bastion_retex.bundle"
                 }
-
             }
         },
         "handbook": {
@@ -105,7 +104,7 @@
             "Description": "The Bastion dust cover with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on the AK platform. Manufactured by AKademia. Modded with topographical lines."
         }
     },
-    "01007_LS321": {
+    "672e37d1c999f94dae595a1b": {
         "clone": "57fd23e32459772d0805bcf1",
         "enable": true,
         "items": {
@@ -125,7 +124,7 @@
             "Description": "Holosun LS321 is a multi-laser tactical device with green laser in the visible light spectrum, IR laser and IR searchlight. Modded black."
         }
     },
-    "01008_MK47R": {
+    "672e37d1a98e0628807ba29a": {
         "clone": "606587a88900dc2d9a55b659",
         "enable": true,
         "items": {
@@ -145,7 +144,7 @@
             "Description": "The Resolute upper receiver for Mk47 Mutant assault rifle, chambered in 7.62x39mm. Equipped with a mount for attaching additional devices. Manufactured by CMMG. Modded with topographical lines."
         }
     },
-    "01009_RAPTAR": {
+    "672e37d178e24689d6ff50ce": {
         "clone": "61605d88ffa6e502ac5e7eeb",
         "enable": true,
         "items": {
@@ -165,7 +164,7 @@
             "Description": "The early generation of the tactical device called RAPTAR combined with a rangefinder. It has visible and IR lasers, as well as an infrared illuminator. Modded black."
         }
     },
-    "01010_RAZOR": {
+    "672e37d19f3e60fb0cbbe568": {
         "clone": "618ba27d9008e4636a67f61d",
         "enable": true,
         "items": {
@@ -185,7 +184,27 @@
             "Description": "A tactical riflescope designed for quick target acquisition and maximum precision. Manufactured by Vortex Optics. Modded black."
         }
     },
-    "01011_NOVESKE_REC": {
+    "67617ec9ea1e82ea5e103054": {
+        "clone": "6567e7681265c8a131069b0f",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "scope_30mm_sig_tango6t_1_6x24_retex.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f748386f774093e6cb501",
+            "Price": 68601
+        },
+        "locales": {
+            "Name": "SIG TANGO6T 1-6x24 30mm riflescope (Black)",
+            "Shortname": "TANGO6T Black",
+            "Description": "The TANGO6T is a rugged and well-built low power variable optic. This model features a 1x to 6x magnification and a first focal plane reticle. This rifle scope is ideal for short and medium distances, as well as for backcountry hunting. Manufactured by SIG Sauer. Modded black."
+        }
+    },
+    "672e37d1603bec7640eb5459": {
         "clone": "5c07a8770db8340023300450",
         "enable": true,
         "items": {
@@ -206,12 +225,12 @@
         },
         "bcCompatibilities": {
             "mod_handguard": [
-                "01020_AR_CARBON_HANDGUARD",
-                "01003_FSB_HANDGUARD"
+                "672e37d16b2e4ea6c4076cbc",
+                "672e37d1520640dc6dcd5cdd"
             ]
         }
     },
-    "01012_VPO_STOCK": {
+    "672e37d12636da3c12abb505": {
         "clone": "5c503af12e221602b177ca02",
         "enable": true,
         "items": {
@@ -231,7 +250,7 @@
             "Description": "Regular stock for a VPO-101 Vepr Hunter. Modded black."
         }
     },
-    "01013_M1A_STOCK": {
+    "672e37d1f647e5253b953b08": {
         "clone": "5ab372a310e891001717f0d8",
         "enable": true,
         "items": {
@@ -251,7 +270,7 @@
             "Description": "The TROY Semi-Automatic Sniper System chassis is designed to match the ergonomics of M16/M4 weapon systems. This modular quad-rail system allows unlimited mounting options and keeps all optics and sights mounted and undisturbed while field stripping. Modded black."
         }
     },
-    "01014_HYBRID_46_SILENCER": {
+    "672e37d1565ea85b2a92e2e4": {
         "clone": "59bffbb386f77435b379b9c2",
         "enable": true,
         "items": {
@@ -271,7 +290,7 @@
             "Description": "Multi-caliber silencer Silencerco Hybrid 46 is designed for use with pistols from 9mm to .45 ACP and rifles from 5.56mm to .45. Respective adapter required for installation on the system. Modded with digital styled camo."
         }
     },
-    "668ab2119742a28c0bb14dd0": {
+    "672e37d16dd16ffec1f6019e": {
         "clone": "62e7c98b550c8218d602cbb4",
         "enable": true,
         "items": {
@@ -291,7 +310,7 @@
             "Description": "30-round polymer Steyr AUG magazine, for 5.56x45 ammunition. Modded black."
         }
     },
-    "01016_AK_PT_1_STOCK": {
+    "672e37d1974eeef8028990a4": {
         "clone": "5b222d405acfc400153af4fe",
         "enable": true,
         "items": {
@@ -311,7 +330,7 @@
             "Description": "The telescopic PT-1 stock is mounted on the standard place of the stock AK 103, 104, 105, 74M, AKS74U and PP Vityaz, has a length adjustment mechanism and an adjustable cheek. A special lock is required for installation. Special edition."
         }
     },
-    "01017_AK_MP_PGRIP": {
+    "672e37d1af063ed84beecc40": {
         "clone": "5b30ac585acfc433000eb79c",
         "enable": true,
         "items": {
@@ -331,7 +350,7 @@
             "Description": "Light pistol grip for a AK, produced by Magpul. Special edition."
         }
     },
-    "01018_RD_GBLOCK_HANDGUARD": {
+    "672e37d1d3f662d053528ca3": {
         "clone": "628a83c29179c324ed269508",
         "enable": true,
         "items": {
@@ -351,7 +370,7 @@
             "Description": "A combined kit of the ION Lite 9 inch handguard with the Railed Gas Tube, can be installed on RD-704 assault rifles. Manufactured by SLR. Special edition."
         }
     },
-    "01019_AK_DOGRAIL_DUSTCOVER": {
+    "672e37d1bbce23f93c60de67": {
         "clone": "5d2c772c48f0355d95672c25",
         "enable": true,
         "items": {
@@ -371,7 +390,7 @@
             "Description": "TWS Dog leg rail dust cover with integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on AK platform. Special edition."
         }
     },
-    "01020_AR_CARBON_HANDGUARD": {
+    "672e37d16b2e4ea6c4076cbc": {
         "clone": "63888bbd28e5cc32cc09d2b6",
         "enable": true,
         "items": {
@@ -391,7 +410,7 @@
             "Description": "The GEN III Delta Carbon handguard for AR-15 systems, equipped with a custom interface for the installation of additional devices and accessories. Manufactured by Precision Reflex. Black carbon edition."
         }
     },
-    "01021_SLAAP_ARMOR": {
+    "672e37d1ffec1409f4571dd7": {
         "clone": "5c0e66e2d174af02a96252f4",
         "enable": true,
         "items": {
@@ -411,7 +430,7 @@
             "Description": "Custom armor plate from the trader Painter for the Ops-Core FAST helmet, made of a special polyethylene plate."
         }
     },
-    "01022_GLOCK17_TOPO_SLIDE": {
+    "672e37d126a93d06f86b177a": {
         "clone": "5a6f5e048dc32e00094b97da",
         "enable": true,
         "items": {
@@ -431,7 +450,7 @@
             "Description": "Glock 17 custom slide from the trader Painter. Modded with topographical lines."
         }
     },
-    "01023_GLOCK17_SPECIAL_SLIDE": {
+    "672e37d127e81492ac0c21a4": {
         "clone": "5a6f5f078dc32e00094b97dd",
         "enable": true,
         "items": {
@@ -451,7 +470,7 @@
             "Description": "Glock 17 custom slide from the trader Painter. Modded with special paint."
         }
     },
-    "668ab221312d944950f06411": {
+    "672e37d1b6df87f2230c0b61": {
         "clone": "55d480c04bdc2d1d4e8b456a",
         "enable": true,
         "items": {
@@ -471,7 +490,7 @@
             "Description": "30-round polymer Izhmash 6L23 magazine for 5.45x39 ammo, for AK-74 and compatible systems. Comes in black and plum. Modded with special paint."
         }
     },
-    "01025_VLTOR_REC": {
+    "672e37d1249244ae3a50bb2f": {
         "clone": "59bfe68886f7746004266202",
         "enable": true,
         "items": {
@@ -492,12 +511,12 @@
         },
         "bcCompatibilities": {
             "mod_handguard": [
-                "01020_AR_CARBON_HANDGUARD",
-                "01003_FSB_HANDGUARD"
+                "672e37d16b2e4ea6c4076cbc",
+                "672e37d1520640dc6dcd5cdd"
             ]
         }
     },
-    "0101_BLACK_LINES_M4A1": {
+    "672e37d1179b7b969b7577cb": {
         "clone": "5447a9cd4bdc2dbd208b4567",
         "enable": true,
         "items": {
@@ -517,7 +536,7 @@
             "Description": "The Colt M4A1 carbine is a fully automatic variant of the basic M4 Carbine and was primarily designed for special operations use. However, U.S. Special Operations Command (USSOCOM) was soon to adopt the M4A1 for almost all special operations units, followed later by general introduction of the M4A1 into service with the U.S. Army and Marine Corps. Modded with topographical lines."
         }
     },
-    "0102_BLACK_LINES_AK103": {
+    "672e37d1e35a6ec6e6997492": {
         "clone": "5ac66d2e5acfc43b321d4b53",
         "enable": true,
         "items": {
@@ -537,7 +556,7 @@
             "Description": "Kalashnikov 7.62 mm assault rifle equipped with a side-folding shoulder stock and a side mount for optical and night scopes. Modded with topographical lines."
         }
     },
-    "0103_BLACK_RSASS": {
+    "672e37d1dd890afba20c10e7": {
         "clone": "5a367e5dc4a282000e49738f",
         "enable": true,
         "items": {
@@ -558,12 +577,12 @@
         },
         "bcCompatibilities": {
             "mod_magazine": [
-                "668ab243a698489724ee6aab",
-                "668ab24c86da1d43430340af"
+                "672e37d19811257c1de39e6d",
+                "672e37d15fe804508ab7c6e6"
             ]
         }
     },
-    "0104_BLACK_LINES_MK47": {
+    "672e37d10b7a12e6a7a50b77": {
         "clone": "606587252535c57a13424cfd",
         "enable": true,
         "items": {
@@ -583,7 +602,7 @@
             "Description": "CMMG Mk47 Mutant, American-made carbine chambered in 7.62x39mm, manufactured by CMMG Inc. Works with all types of AK magazines, including steel, polymer and drums. The carbine has shown exceptional reliability, which, together with the classic ergonomics of the AR system, gives an excellent example of a firearm. This variant features a fully automatic firing mode, for Law Enforcement and Millitary use only. Modded with topographical lines."
         }
     },
-    "0105_BLACK_AUG": {
+    "672e37d1baa6f6d63142652b": {
         "clone": "63171672192e68c5460cebc5",
         "enable": true,
         "items": {
@@ -603,7 +622,7 @@
             "Description": "Steyr AUG A3 is a 5.56x45 bullpup assault rifle, developed by the Austrian company Steyr-Daimler-Puch. AUG is known for good ergonomics, decent accuracy, low recoil and sufficient reliability. The rifle also stands out for its futuristic design. The A3 version features a bolt-catch button. Modded black."
         }
     },
-    "0106_FLAMING_M4A1": {
+    "672e37d1ddaf7c656e3a634c": {
         "clone": "5447a9cd4bdc2dbd208b4567",
         "enable": true,
         "items": {
@@ -624,12 +643,12 @@
         },
         "bcCompatibilities": {
             "mod_reciever": [
-                "01011_NOVESKE_REC",
-                "01025_VLTOR_REC"
+                "672e37d1603bec7640eb5459",
+                "672e37d1249244ae3a50bb2f"
             ]
         }
     },
-    "0107_PRISTINE_M4A1": {
+    "672e37d19f1683101780773b": {
         "clone": "5447a9cd4bdc2dbd208b4567",
         "enable": true,
         "items": {
@@ -650,12 +669,12 @@
         },
         "bcCompatibilities": {
             "mod_reciever": [
-                "01011_NOVESKE_REC",
-                "01025_VLTOR_REC"
+                "672e37d1603bec7640eb5459",
+                "672e37d1249244ae3a50bb2f"
             ]
         }
     },
-    "0108_BLACK_SPEAR": {
+    "672e37d17f433cdb29072bc8": {
         "clone": "65290f395ae2ae97b80fdf2d",
         "enable": true,
         "items": {
@@ -676,21 +695,21 @@
         },
         "bcCompatibilities": {
             "mod_reciever": [
-                "0108_BLACK_SPEAR_RECIEVER"
+                "672e37d133cc1fb4424ddb4c"
             ],
             "mod_magazine": [
-                "668ab243a698489724ee6aab",
-                "668ab24c86da1d43430340af"
+                "672e37d19811257c1de39e6d",
+                "672e37d15fe804508ab7c6e6"
             ],
             "mod_pistol_grip": [
-                "BC_SIG_PISTOL_GRIP"
+                "672e37d1861c12c7e1d94089"
             ],
             "mod_charge": [
-                "BC_SPEAR_CHARGE"
+                "672e37d1906226680c4e28d5"
             ]
         }
     },
-    "0108_BLACK_SPEAR_RECIEVER": {
+    "672e37d133cc1fb4424ddb4c": {
         "clone": "6529119424cbe3c74a05e5bb",
         "enable": true,
         "items": {
@@ -698,7 +717,6 @@
                 "Prefab": {
                     "path": "spear_black/reciever_mcx_sig_spear_upper.bundle"
                 }
-
             }
         },
         "handbook": {
@@ -712,11 +730,11 @@
         },
         "bcCompatibilities": {
             "mod_handguard": [
-                "BC_SPEAR_HANDGUARD"
+                "672e37d1984bc9a10241a9c7"
             ]
         }
     },
-    "BC_NEW_FOREGRIP_1": {
+    "672e37d10e627f2e9563a930": {
         "clone": "5c7fc87d2e221644f31c0298",
         "enable": true,
         "items": {
@@ -736,7 +754,7 @@
             "Description": "Angled grip made by Painter."
         }
     },
-    "668ab243a698489724ee6aab": {
+    "672e37d19811257c1de39e6d": {
         "clone": "65293c38fc460e50a509cb25",
         "enable": true,
         "items": {
@@ -756,7 +774,7 @@
             "Description": "A 20-round double-stack L7AWM 20 magazine for 7.62x51 NATO ammunition. Manufactured by Lancer Systems. Modded black."
         }
     },
-    "668ab24c86da1d43430340af": {
+    "672e37d15fe804508ab7c6e6": {
         "clone": "65293c7a17e14363030ad308",
         "enable": true,
         "items": {
@@ -776,7 +794,7 @@
             "Description": "A 20-round double-stack L7AWM 20 magazine for 7.62x51 NATO ammunition. Manufactured by Lancer Systems. Modded black."
         }
     },
-    "BC_SIG_PISTOL_GRIP": {
+    "672e37d1861c12c7e1d94089": {
         "clone": "652911675ae2ae97b80fdf3c",
         "enable": true,
         "items": {
@@ -796,7 +814,7 @@
             "Description": "The polymer M400 Reduced Angle Pistol Grip fits any weapon compatible with AR-15 system. Manufactured by SIG Sauer. Modded black."
         }
     },
-    "BC_SPEAR_HANDGUARD": {
+    "672e37d1984bc9a10241a9c7": {
         "clone": "652910ef50dc782999054b97",
         "enable": true,
         "items": {
@@ -817,11 +835,11 @@
         },
         "bcCompatibilities": {
             "mod_foregrip": [
-                "BC_NEW_FOREGRIP_1"
+                "672e37d10e627f2e9563a930"
             ]
         }
     },
-    "BC_SPEAR_CHARGE": {
+    "672e37d1906226680c4e28d5": {
         "clone": "6529109524cbe3c74a05e5b7",
         "enable": true,
         "items": {
@@ -841,7 +859,7 @@
             "Description": "A standard-issue ambidextrous charging handle for the MCX SPEAR assault rifle. Manufactured by SIG Sauer."
         }
     },
-    "BC_SPEAR_SILENCER": {
+    "672e37d143ba463a1cdcbd7b": {
         "clone": "652911e650dc782999054b9d",
         "enable": true,
         "items": {
@@ -861,7 +879,7 @@
             "Description": "The SLX68-MG-QD suppressor is designed for use with the 6.8x51 (.277 FURY) caliber cartridge. Can only be mounted on Clutch-Lok flash hiders. Manufactured by SIG Sauer."
         }
     },
-    "BC_SPEAR_BUFFER_TUBE": {
+    "672e37d151b832f3fb8ccbb0": {
         "clone": "6529366450dc782999054ba0",
         "enable": true,
         "items": {
@@ -882,11 +900,11 @@
         },
         "bcCompatibilities": {
             "mod_stock_000": [
-                "BC_MAGPUL_SLK_STOCK"
+                "672e37d1d9a55146e49287d6"
             ]
         }
     },
-    "BC_MAGPUL_SLK_STOCK": {
+    "672e37d1d9a55146e49287d6": {
         "clone": "6529370c405a5f51dd023db8",
         "enable": true,
         "items": {
@@ -906,7 +924,7 @@
             "Description": "A quick-detach buttstock for AR-15/M16 rifles with mil-spec buffer tube. Manufactured by Magpul Original Equipment. Black version."
         }
     },
-    "BC_BLACK_BALACLAVA": {
+    "672e37d1700e32cad600018f": {
         "clone": "572b7f1624597762ae139822",
         "enable": true,
         "items": {
@@ -926,7 +944,7 @@
             "Description": "A definitive black woolen balaclava is not only a head-warmer but soul-warmer too for anyone who is too modest for public heroic deeds."
         }
     },
-    "BC_GRADIENT_GLASSES": {
+    "672e37d1d0d67e193f688afa": {
         "clone": "603409c80ca681766b6a0fb2",
         "enable": true,
         "items": {
@@ -946,7 +964,7 @@
             "Description": "Heavy-duty ballistic shooting glasses with impact-resistant lenses."
         }
     },
-    "BC_ARSCPC_RIG": {
+    "672e37d1528e2a1d81bbe1bb": {
         "clone": "5e4ac41886f77406a511c9a8",
         "enable": true,
         "items": {
@@ -968,7 +986,7 @@
             "Description": "The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the thorax, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches. Manufactured by Ars Arma."
         }
     },
-    "BC_TACTEC_RIG": {
+    "672e37d1d3f0502bda8317dd": {
         "clone": "5b44cad286f77402a54ae7e5",
         "enable": true,
         "items": {
@@ -990,7 +1008,7 @@
             "Description": "A plate carrier with a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical."
         }
     },
-    "BC_TV110_RIG": {
+    "672e37d1431d27aff3b27f4d": {
         "clone": "5c0e746986f7741453628fe5",
         "enable": true,
         "items": {
@@ -1012,7 +1030,7 @@
             "Description": "The LBS TV-110 plate carrier equipped with a set of pouches. Manufactured by WARTECH."
         }
     },
-    "BC_AVS_RIG": {
+    "672e37d18d4d0ec5f16f5cc9": {
         "clone": "544a5caa4bdc2d1a388b4568",
         "enable": true,
         "items": {
@@ -1034,7 +1052,7 @@
             "Description": "The Crye Precision AVS plate carrier equipped with Groin Protector and pouches in assault configuration. One of the most comfortable to wear plate carriers."
         }
     },
-    "BC_VORTEX_UH1": {
+    "672e37d1988fac66b10d23c8": {
         "clone": "59f9d81586f7744c7506ee62",
         "enable": true,
         "items": {
@@ -1054,7 +1072,7 @@
             "Description": "The Vortex Razor AMG UH-1 holographic sight is not only made with futuristic design, but, according to its creators, is also a revolution among holographic and reflex sights. Modded black."
         }
     },
-    "BC_ANPEQ15": {
+    "672e37d1c3f0ee2b60c5854d": {
         "clone": "544909bb4bdc2d6f028b4577",
         "enable": true,
         "items": {
@@ -1074,7 +1092,7 @@
             "Description": "The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL) produced by L3 Technologies is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator. Modded black."
         }
     },
-    "BC_GL_CORE_STOCK": {
+    "672e37d1713443a0355d72e8": {
         "clone": "602e620f9b513876d4338d9a",
         "enable": true,
         "items": {
